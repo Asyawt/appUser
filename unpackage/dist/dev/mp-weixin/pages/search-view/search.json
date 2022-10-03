@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "",
+  "navigationBarBackgroundColor": "#fefefe",
+  "usingComponents": {
+    "card": "../common-component/Card-goods",
+    "loading": "../loading-component/loading"
+  }
+}

@@ -1,0 +1,42 @@
+
+/* 轮播区域 */
+.Rotation-view.data-v-6578bcc0 {
+	height: 320rpx;
+	/* background: linear-gradient(to bottom, #4CD964 25%, #c0f2c8 100%); */
+	background: linear-gradient(to bottom, #e94b37 25%, #e59f95 100%);
+	padding: 20rpx 20rpx 0 20rpx;
+}
+.swiper-top.data-v-6578bcc0 {
+	height: 300rpx;
+	position: relative;
+}
+.swiper.data-v-6578bcc0 {
+	height: 300rpx !important;
+	border-radius: 20rpx;
+	overflow: hidden;
+	transform: translateY(0);
+}
+.swiper-item image.data-v-6578bcc0 {
+	width: 100%;
+	height: 300rpx !important;
+}
+
+/* 指示点 */
+.instruct-view.data-v-6578bcc0 {
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	bottom: 10rpx;
+	left: 0;
+	width: 100%;
+}
+.instruct.data-v-6578bcc0 {
+	background: #4e90a6;
+	height: 10rpx;
+	width: 30rpx;
+	border-radius: 50rpx;
+	margin: 0 10rpx;
+}
+.active.data-v-6578bcc0 {
+	background: #FFFFFF !important;
+}

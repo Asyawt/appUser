@@ -1,0 +1,57 @@
+    let raw=toRaw(skuData)
+    raw.all_sku.forEach(item=>item['custom']='')
+    selectdata.select.forEach((sel_item,sel_index)=>{
+        raw.all_sku.forEach((ori_item,ori_index)=>{
+          if(ori_item.stock==0){
+            ori_item.att_data.forEach((i,idx)=>{
+              if(i.att_name==sel_item.att_name && i.att_val==sel_item.att_val){
+                //一.此处查询到库存为0的，custom就标记为选择的字符串
+                raw.all_sku[ori_index].custom+=i.att_val
+              }
+            })
+          }
+        })
+    })
+      // console.log(raw);
+      let selstr=''
+      selectdata.select.forEach(item=>selstr+=item.att_val)
+      if(selstr==''){
+        //二.过滤出当前选择的已有规格的库存为0的sku,为一个数组
+        // 用var ,后面要使用，为一个全局变量
+        var new_res=[]//一向都没选择，或刚开始进来时候的状态
+      }else{//选中，选择至少一项，过滤出当前选择的已有规格的库存为0的sku,为一个数组
+        var new_res=raw.all_sku.filter(item=>item.custom==selstr)
+      }
+      console.log(new_res);
+      console.log(skuData.new_sku);
+      //#region
+      // //三.根据选择的规格判断是否有在当前规格下库存为零的全部规格
+      // if(new_res.length>0){    //如果有库存为零new_res.length>0， 让库存为0的禁用点击，去掉背景色 
+      //   for(let i=0;i<new_res.length;i++){//遍历有几个库存为0的规格
+      //     for(let m=0;m<new_res[i].att_data.length;m++){//遍历拿到库存为0的规格的所有属性
+      //       // 再拿到渲染数据里面规格类别的每一项值，来设置样式
+      //       for(let g=0;g<skuData.new_sku.length;g++){//有几个规格类别
+      //         for(let k=0;k<skuData.new_sku[g].sku.length;k++){//规格类别中的每一项，共有几项
+      //         // 最后做判断
+      //         selectdata.select.forEach(a=>{
+      //           if(a.att_name!=skuData.new_sku[g].att_name && new_res[i].att_data[g].att_val==skuData.new_sku[g].sku[k].att_val){
+      //             skuData.new_sku[g].sku[k].act=true
+      //           }
+      //         })         
+      //         }
+      //       }
+      //     }
+      //   }
+      // }else{
+      //  // 如果没有库存为0的
+      //  skuData.new_sku.forEach((item,index)=>{
+      //    item.sku.forEach((i,idx)=>{
+      //      if(i.act){
+      //        i.act=false
+      //      }
+      //    })
+      //  })
+      // }
+      //#endregion
+      
+      

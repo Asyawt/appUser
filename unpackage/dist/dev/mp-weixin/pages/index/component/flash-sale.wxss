@@ -1,0 +1,49 @@
+
+.flash-view.data-v-baec19a8{
+	background: linear-gradient(to bottom, #ed7d79 25%, #fceeed 70%);
+	border-radius: 20rpx;
+	padding: 20rpx 0;
+	margin: 30rpx 20rpx 0 20rpx;
+}
+.count-down.data-v-baec19a8{
+	color: #FFFFFF;
+	padding-bottom: 15rpx;
+	padding-left: 20rpx;
+	font-style: oblique;
+	font-weight: bold;
+}
+/* 宫格布局 */
+.flex-view.data-v-baec19a8{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 20rpx;
+}
+.commodity.data-v-baec19a8{
+	width: calc(25% - 10rpx*2);
+	margin: 10rpx;
+}
+.commodity image.data-v-baec19a8{
+	width: 100%;
+	height: 150rpx;
+	border-radius: 20rpx;
+}
+.commodity view.data-v-baec19a8{
+	width: 90%;
+}
+.commodity view text.data-v-baec19a8:nth-child(1){
+	margin: 10rpx 0;
+}
+.commodity view text.data-v-baec19a8:nth-child(2){
+	color: #999999;
+	font-weight: bold;
+}
+.commodity view text.data-v-baec19a8:nth-child(3){
+	text-decoration: line-through;
+	font-size: 25rpx;
+	color: #bfbfbf;
+	padding-left: 10rpx;
+}
+.overflow.data-v-baec19a8{
+  display: block;
+	-webkit-line-clamp: 1 !important;
+}

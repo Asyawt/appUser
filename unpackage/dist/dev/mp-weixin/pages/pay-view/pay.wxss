@@ -1,0 +1,114 @@
+
+page{
+	background-color: #f6f6f6;
+}
+.aa{
+  flex: 1;
+}
+.pay-address{
+	display: flex;
+	align-items: center;
+	background-color: #FFFFFF;
+	padding: 20rpx;
+	margin-bottom: 20rpx;
+}
+.pay-address-left image{
+	display: block;
+	width: 40rpx;
+	height: 40rpx;
+}
+.pay-address-right image{
+	display: block;
+	width: 30rpx;
+	height: 30rpx;
+}
+.pay-address-name{
+	flex: 1;
+	padding: 0 20rpx;
+}
+.pay-address-name view{
+	display: flex;
+	align-items: center;
+}
+.pay-address-name view text:nth-child(1){
+	padding-right: 10rpx;
+	font-weight: bold;
+}
+.pay-address-name view text:nth-child(2){
+	color: #8b8b8d;
+}
+/* 待支付商品 */
+.pay-goods{
+	background-color: #FFFFFF;
+	display: flex;
+	padding: 20rpx 20rpx 40rpx 20rpx;
+}
+.pay-goods text{
+	display: block;
+}
+.pay-goods image{
+	display: block;
+	width: 200rpx;
+	height: 200rpx;
+	margin-right: 20rpx;
+	border-radius: 6rpx;
+}
+.pay-goods-title{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box !important;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+.pay-goods-specs{
+	background-color: #fafafa;
+	padding: 10rpx;
+	display: inline-block !important;
+	font-size: 28rpx;
+	color: #a4a4a4;
+	margin-top: 20rpx;
+}
+.pay-goods-price{
+	padding-top: 50rpx;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-weight: bold;
+}
+.pay-goods-price image{
+	width: 50rpx;
+	height: 50rpx;
+	display: block;
+	margin: 0 !important;
+}
+.pay-goods-price view{
+	display: flex;
+	align-items: center;
+}
+.pay-goods-price view text{
+	padding: 0 40rpx;
+}
+/* 结算 */
+.set-accounts{
+	background-color: #FFFFFF;
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20rpx 20rpx 68rpx 20rpx;
+}
+.set-accounts view:nth-child(1){
+	color: #fc324a;
+	font-size: 35rpx;
+	font-weight: bold;
+}
+.set-accounts view:nth-child(2){
+	background-color: #ea445a;
+	color: #FFFFFF;
+	font-size: 35rpx;
+	padding: 15rpx 35rpx;
+	border-radius: 10rpx;
+}

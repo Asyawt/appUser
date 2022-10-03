@@ -1,0 +1,34 @@
+
+page{background-color: #f4f4f4;}
+/* 首页自定义搜索框 */
+.search-back{
+	/* background-color: #4CD964; */
+	background-color: #e94b37;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 99;
+}
+.search-input{
+	background: #FFFFFF;
+	border-radius: 50rpx;
+	margin-left: 20rpx;
+	display: flex;
+	flex-direction: row;
+	flex: 1;
+	position: relative;
+}
+.search-input input{
+	width: 100%;
+	font-size: 30rpx;
+	color: #b2b2b2;
+	padding-left: 80rpx;
+}
+.search-input image{
+	width: 35rpx;
+	height: 35rpx;
+	position: absolute;
+	left: 30rpx;
+	align-self: center;
+}

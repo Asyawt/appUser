@@ -1,0 +1,11 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "swipers": "./component/swiper",
+    "eva": "./component/evaluate",
+    "img": "./component/image",
+    "purchase": "./component/purchase",
+    "login": "../components/login-view",
+    "specs": "../components/specs-view"
+  }
+}

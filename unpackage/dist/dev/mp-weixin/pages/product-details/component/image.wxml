@@ -1,0 +1,1 @@
+<view class="details-img data-v-2b965cb5"><block wx:for="{{a}}" wx:for-item="item" wx:key="b"><image class="data-v-2b965cb5" src="{{item.a}}" mode="widthFix"></image></block></view><view class=" data-v-2b965cb5" style="height:180rpx"></view>

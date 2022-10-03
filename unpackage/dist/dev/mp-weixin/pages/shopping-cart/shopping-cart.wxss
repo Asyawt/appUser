@@ -1,0 +1,103 @@
+
+page{background-color: #fafafa;}
+.Manage{
+	padding: 20rpx 20rpx 0 0;
+	text-align: right;
+}
+.SH-view{
+	background-color: #FFFFFF;
+	display: flex;
+	padding: 40rpx 20rpx;
+	margin: 20rpx 0;
+}
+.SH-icon{
+	height: 150rpx;
+	display: flex;
+	align-items: center;
+}
+.SH-img{
+	width: 150rpx;
+	height: 150rpx;
+	padding: 0 20rpx;
+}
+.SH-img image{
+	width: 150rpx;
+	height: 150rpx;
+	border-radius: 7rpx;
+}
+.SH-right{
+	flex: 1;
+}
+.SH-zhankai{
+	background-color: #fafafa;
+	color: #bdbdbd;
+	display: inline-block;
+	/* margin: 10rpx 0 20rpx 0; */
+	padding: 5rpx 10rpx;
+	font-size: 26rpx;
+}
+.SH-zhankai image{
+	width: 20rpx;
+	height: 20rpx;
+	padding-left: 10rpx;
+}
+.SH-price{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.SH-price view:nth-child(1){
+	color: #ff4b70;
+	font-weight: bold;
+}
+.SH-amount{
+	display: flex;
+	align-items: center;
+	flex: 1;
+	justify-content: flex-end;
+}
+.SH-amount image{
+	width: 50rpx;
+	height: 50rpx;
+}
+.SH-amount text{
+	padding: 0 30rpx;
+}
+/* 底部购物车 */
+.SH-bottom{
+	background-color: #ffffff;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100rpx;
+	padding: 0 20rpx;
+	display: flex;
+	align-items: center;
+}
+.SH-bottom text{
+	display: block;
+}
+.space{
+	padding: 0 15rpx;
+}
+.SH-total{
+	flex: 1;
+	color: #dd4055;
+	font-weight: bold;
+}
+.SH-settle{
+	background-color: #ea445a;
+	padding: 20rpx 90rpx;
+	border-radius: 10rpx;
+	color: #FFFFFF;
+}
+.cut-apart{
+	width: 7rpx;
+	height: 30rpx;
+	background-color: #dadada;
+}
+.prevent_btn{
+	opacity: 0.4;
+	pointer-events: none;
+}

@@ -1,0 +1,1 @@
+<card wx:if="{{a}}" u-i="dba9d52a-0" bind:__l="__l" u-p="{{a}}"></card><view class="loading-hei"><loading wx:if="{{b}}" u-i="dba9d52a-1" bind:__l="__l"></loading></view><view wx:if="{{c}}" class="Tips"> 没有商品收藏 </view>

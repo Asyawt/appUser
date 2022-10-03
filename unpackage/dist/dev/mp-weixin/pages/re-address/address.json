@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "收货地址",
+  "navigationBarBackgroundColor": "#fefefe",
+  "usingComponents": {
+    "add-address": "./component/new-address"
+  }
+}

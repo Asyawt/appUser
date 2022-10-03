@@ -1,0 +1,81 @@
+
+.chacha.data-v-99df7a82{
+  position: fixed;
+  right: 38rpx;
+  z-index: 1;
+}
+.chacha image.data-v-99df7a82{width: 30rpx; height: 30rpx;}
+.scroll-hi.data-v-99df7a82{height: 100%;}
+/* 评论内容 */
+.messages-views.data-v-99df7a82{
+	margin: 20rpx 0;
+}
+.messages-name image.data-v-99df7a82{
+	width: 60rpx; height: 60rpx;
+	border-radius: 50%;
+}
+.messages-name.data-v-99df7a82{
+	display: flex;
+	align-items: center;
+	height: 60rpx;
+}
+.nickname.data-v-99df7a82{
+	flex: 1;
+	color: #8a8b90;
+	font-size: 30rpx;
+	padding-left: 15rpx;
+}
+.times.data-v-99df7a82{
+	color: #b0afb4;
+	font-size: 25rpx;
+}
+.messages-title.data-v-99df7a82{
+	font-size: 30rpx;
+	padding-left: 75rpx;
+	line-height: 1.4;
+	margin: 20rpx 0;
+}
+/* 固定底部的评论框 */
+.Comment-box.data-v-99df7a82{
+	background-color: #f7f7f7;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	padding: 10rpx;
+	display: flex;
+	align-items: center;
+	font-size: 27rpx;
+	z-index: 99;
+	padding-bottom: 68rpx;
+}
+.Comment-box-input.data-v-99df7a82{
+	background-color: #FFFFFF;
+	border-radius: 10rpx;
+	height: 80rpx;
+	flex: 1;
+}
+.Comment-box-input input.data-v-99df7a82{
+	padding: 0 15rpx;
+	height: 80rpx;
+}
+.send-out.data-v-99df7a82{
+	background-color: #07c160;
+	color: #FFFFFF;
+	height: 80rpx;
+	line-height: 80rpx;
+	width: 150rpx;
+	text-align: center;
+	border-radius: 10rpx;
+	margin-left: 10rpx;
+}
+.detail-page button.data-v-99df7a82{
+	margin: 70rpx;
+	width: 400rpx;
+}
+.detail-page.data-v-99df7a82{
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}

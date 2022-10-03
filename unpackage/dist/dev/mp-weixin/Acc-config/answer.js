@@ -1,0 +1,16 @@
+"use strict";
+var common_vendor = require("../common/vendor.js");
+let login_user = common_vendor.reactive({ show: false, response: "none" });
+let comment_show = common_vendor.reactive({ show: false, num: 1, goods_id: "" });
+let sku_popup = common_vendor.reactive({ show: false, judge: "" });
+let show = common_vendor.ref(false);
+let modify = common_vendor.reactive({ data: {}, id: "" });
+let newAddress = common_vendor.reactive({ data: [] });
+let eav_index = common_vendor.ref("-1");
+exports.comment_show = comment_show;
+exports.eav_index = eav_index;
+exports.login_user = login_user;
+exports.modify = modify;
+exports.newAddress = newAddress;
+exports.show = show;
+exports.sku_popup = sku_popup;

@@ -1,0 +1,130 @@
+
+.line.data-v-5fd4c8ac{
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+.space-goods-img.data-v-5fd4c8ac{
+	width: 180rpx;
+	height: 180rpx;
+}
+.space-goods-img image.data-v-5fd4c8ac{
+	width: 180rpx;
+	height: 180rpx;
+	border-radius: 10rpx;
+}
+.space-xx.data-v-5fd4c8ac{
+	width: 30rpx;
+	height: 30rpx;
+}
+.space-xx image.data-v-5fd4c8ac{
+	width: 30rpx;
+	height: 30rpx;
+}
+.space-price.data-v-5fd4c8ac{
+	display: flex;
+	border-bottom: 1rpx solid #ececed;
+	padding-bottom: 20rpx;
+}
+.space-price text.data-v-5fd4c8ac{
+	display: block;
+}
+.space-text.data-v-5fd4c8ac{
+	flex: 1;
+	align-self: flex-end;
+	padding: 0 20rpx;
+	font-size: 26rpx;
+}
+.space-text-price.data-v-5fd4c8ac{
+	display: flex;
+	align-items: center;
+}
+.space-text-price text.data-v-5fd4c8ac:nth-child(1){
+	color: #e9445a;
+	font-size: 40rpx;
+}
+.space-text-price text.data-v-5fd4c8ac:nth-child(2){
+	font-size: 30rpx;
+	background-color: #e9445a;
+	color: #ffffff;
+	border-radius: 40rpx;
+	padding: 10rpx;
+	margin-left: 20rpx;
+}
+.space-text-stock.data-v-5fd4c8ac{
+	padding: 8rpx 0;
+	color: #8d8e92;
+}
+.choice.data-v-5fd4c8ac{
+	display: flex;
+	align-items: center;
+	color: #8d8e92;
+	flex-wrap: wrap;
+}
+.choice text.data-v-5fd4c8ac{
+	padding-right: 10rpx;
+}
+.choice text.data-v-5fd4c8ac:nth-child(1){
+	color: #333333 !important;
+}
+.space-mar.data-v-5fd4c8ac{
+	margin: 20rpx 0;
+	border-bottom: 1rpx solid #ececed;
+}
+.space-title.data-v-5fd4c8ac{
+	margin-bottom: 20rpx;
+	display: block;
+	font-weight: bold;
+}
+.space-sku.data-v-5fd4c8ac{
+	display: flex;
+	flex-wrap: wrap;
+}
+.space-sku text.data-v-5fd4c8ac{
+	font-size: 28rpx;
+	background-color: #f8f8f8;
+	padding: 10rpx 20rpx;
+	margin: 0 20rpx 20rpx 0;
+	border-radius: 8rpx;
+}
+.Pur-quantity image.data-v-5fd4c8ac{
+	width: 50rpx;
+	height: 50rpx;
+	display: block;
+}
+.Pur-quantity.data-v-5fd4c8ac{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.Pur-title.data-v-5fd4c8ac{font-weight: bold;}
+.Pur-image.data-v-5fd4c8ac{
+	display: flex;
+	align-items: center;
+}
+.Pur-image text.data-v-5fd4c8ac{
+	padding: 0 40rpx;
+}
+.space-botton.data-v-5fd4c8ac{
+	background-color: #fefefe;
+	height: 150rpx;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.space-botton view.data-v-5fd4c8ac{
+	height: 80rpx;
+	text-align: center;
+	line-height: 80rpx;
+	color: #FFFFFF;
+	background-color: #e9445a;
+	margin: 10rpx 20rpx;
+	border-radius: 6rpx;
+}
+
+/* 点击后加上新样式 */
+.new_style.data-v-5fd4c8ac{
+	background-color: #e9445a !important;
+	color: #FFFFFF;
+}
+

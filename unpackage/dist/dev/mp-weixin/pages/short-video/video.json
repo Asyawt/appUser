@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "comment": "./component/comment",
+    "login": "../components/login-view"
+  }
+}
